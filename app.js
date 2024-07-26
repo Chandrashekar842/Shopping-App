@@ -95,7 +95,7 @@ app.use(pageNotFound);
 
 mongoose
   .connect(
-    "mongodb+srv://Chandu21:Chandu21@cluster0.0sbmxs4.mongodb.net/shop?retryWrites=true&w=majority"
+    "mongodb+srv://Chandu21:Chandu21@cluster0.0sbmxs4.mongodb.net/shop?retryWrites=true&w=majority&ssl=true"
   )
   .then((result) => {
     app.listen(3000, () => {
