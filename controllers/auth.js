@@ -198,7 +198,7 @@ export const postReset = (req, res, next) => {
                     subject: "Password Reset", // Subject line
                     html: `
                         <h3>You requested a password reset</h3>
-                        <h4>Click this <a href='http://localhost:3000/reset/${token}'>link</a> to set a new password</h4>
+                        <h4>Click this <a href='https://shopping-app-wjnb.onrender.com/reset/${token}'>link</a> to set a new password</h4>
                     `
                 });
             })
